@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif; 
+  color: #000000;
+  background: #F1F1F1;
+  line-height: 1.6;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Header */
+#posts-header {
+  margin-bottom: 60px;
+}
+
+#logo {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  border: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  
+}
+
+#posts-main-title {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  width: 1120px;
+  height: 120px;
+  line-height: 120px;
+  font-size: 48px;
+  margin: 0;
+}
+
+/* Контейнер постов */
+
+#author-img{
+  width: 24px;
+  height: 24px;
+  border-radius: 180px;
+}
+
+#posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 45px; 
+}
+
+#posts-content-container {
+  padding-bottom: 45px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+#posts-content-container:hover {
+  background: #E1E0E6;
+  opacity: 80%;
+  
+  border-radius: 8px;
+}
+
+/* Шапка поста (user + date) */
+
+#posts-head-content {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px; 
+  font-weight: 500;
+  margin-bottom: 48px;
+}
+
+#posts-user {
+  color: #000000;
+  margin: 0;
+}
+
+.dot {
+  color: rgba(0, 0, 0);
+  font-size: 9px;
+}
+
+.in {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#posts-date {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+/* Основной контент (текст + картинка) */
+
+#posts-main-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+#posts-left-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+#posts-text-content {
+  margin-bottom: 70px;
+  max-width: 690px;
+  
+}
+
+#posts-title {
+  font-size: 28px; 
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  color: #000000;
+}
+
+#posts-body {
+  font-size: 16px; 
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  margin: 0;
+}
+
+#posts-img {
+  width: 265px;
+  height: 265px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 8px;
+  margin-top: -72px;
+  
+}
+
+/* Футер поста (теги + квадратики) */
+
+#posts-footer-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px; 
+  font-weight: 500;
+  
+}
+
+#posts-theme {
+  background:  #E1E0E6;
+  color: #081E34;
+  padding: 6px 16px;
+  border-radius: 32px;
+  margin: 0;
+}
+
+#posts-read-time,
+#posts-selected {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+#posts-boxes {
+  display: flex;
+  gap: 14px;
+  margin-left: 325px; 
+}
+
+.box {
+  width: 24px;
+  height: 24px;
+  background: #E1E0E6;
+  border-radius: 2px;
+}
+
+/* Кнопка Show more */
+
+#load-more-btn {
+  display: block;
+  margin: 40px auto;
+  padding: 12px 32px;
+  background: #000;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#load-more-btn:hover {
+  background:  #E1E0E6;
+  color: #000;
+}
+
+
+/* Footer */
+
+#footer {
+  margin-top: 80px;
+  padding-top: 40px;
+ 
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: end;
+}
+
+.footer-credits,
+.footer-made {
+  margin: 8px 0;
+}
+
+.footer-made{
+  margin-top: 32px;
+  color: #000000;
+}
+
+.footer-credits a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
+}
+
+.footer-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin: 0 2px;
+}

@@ -1,0 +1,265 @@
+
+
+/* Планшеты и маленькие ноутбуки */
+
+@media (max-width: 1200px) {
+  body {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+  
+  #posts-main-title {
+    width: 100%;
+    font-size: 40px;
+    height: auto;
+    line-height: 1.2;
+  }
+}
+
+/* Планшеты */
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 20px;
+  }
+
+  /* POSTS PAGE */
+  
+  #posts-main-title {
+    font-size: 32px;
+  }
+
+  #posts-main-content {
+    flex-direction: column-reverse; 
+  }
+
+  #posts-img {
+    width: 100%;
+    max-width: 768px;
+    height: 200px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  #posts-text-content {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  #posts-title {
+    font-size: 24px;
+  }
+
+  #posts-body {
+    font-size: 14px;
+  }
+
+  #posts-boxes {
+    margin-left: auto;
+  }
+
+  /* POST PAGE */
+
+  #post-head-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  #socials-icons {
+    align-self: flex-end;
+  }
+
+  #post-title {
+    font-size: 28px;
+  }
+
+  #post-body {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  #post-img {
+    height: 300px;
+  }
+
+  #post-subheader {
+    font-size: 16px;
+  }
+
+  #back-button {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+}
+
+
+/* Мобильные телефоны */
+
+@media (max-width: 480px) {
+  body {
+    padding: 0 16px;
+  }
+
+  /* POSTS PAGE */
+
+  #logo {
+    font-size: 12px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  #posts-main-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  #posts-header {
+    margin-bottom: 30px;
+  }
+
+  #posts-container {
+    gap: 30px;
+  }
+
+  #posts-content-container {
+    padding-bottom: 30px;
+  }
+
+  #posts-head-content {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  #author-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #posts-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  #posts-body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  #posts-img {
+    border-radius: 4px;
+  }
+
+  #posts-footer-content {
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+
+  #posts-theme {
+    padding: 4px 12px;
+    font-size: 12px;
+  }
+
+  #posts-boxes {
+    display: none; 
+  }
+
+  #load-more-btn {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+
+  /* POST PAGE */
+
+  #back-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 32px;
+    height: 32px;
+  }
+
+  #post-content-container {
+    margin: 40px auto;
+  }
+
+  #post-head-content {
+    margin-bottom: 40px;
+  }
+
+  #author-img {
+    width: 48px;
+    height: 48px;
+  }
+
+  #post-author-name {
+    font-size: 16px;
+  }
+
+  #post-meta {
+    font-size: 12px;
+  }
+
+  #socials-icons {
+    gap: 8px;
+  }
+
+  #socials-icons img {
+    width: 16px;
+    height: 16px;
+  }
+
+  #post-title {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  #post-body {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+
+  #post-img {
+    height: 200px;
+    margin-bottom: 40px;
+  }
+
+  #post-subheader-title {
+    font-size: 20px;
+  }
+
+  #post-subheader {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  #like-comments {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+
+  #likes img,
+  #comments img {
+    width: 18px;
+    height: 18px;
+  }
+
+  #icon-save {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* FOOTER */
+
+  #footer {
+    margin-top: 60px;
+    padding-top: 30px;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .footer-made {
+    margin-top: 20px;
+  }
+}
